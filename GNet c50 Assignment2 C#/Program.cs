@@ -1,4 +1,6 @@
-﻿namespace GNet_c50_Assignment2_C_
+﻿using System.Text;
+
+namespace GNet_c50_Assignment2_C_
 {
     internal class Program
     {
@@ -26,22 +28,41 @@
             //Given string title = "Refactoring";, write a switch statement that prints "Great choice!" if the title is "Clean Code",
             //"Nice pick!" if it's "Refactoring", and "Never heard of it" for anything else.
             //---------------
-            string title = "Refactoring";
+            //string title = "Refactoring";
 
-            switch (title)
-            {
-                case "Clean Code":
-                    Console.WriteLine("Great choice");
-                    break;
+            //switch (title)
+            //{
+            //    case "Clean Code":
+            //        Console.WriteLine("Great choice");
+            //        break;
 
-                case "Refactoring":
-                    Console.WriteLine("Nice pick");
-                    break;
+            //    case "Refactoring":
+            //        Console.WriteLine("Nice pick");
+            //        break;
 
-                default:
-                    Console.WriteLine("Never heard of it");
-                    break;
-            }
+            //    default:
+            //        Console.WriteLine("Never heard of it");
+            //        break;
+            //}
+            #endregion
+
+
+            #region Question 1 app
+
+            string title = "clean code";
+
+            string upperTitle = title.ToUpper();
+
+            Console.WriteLine(title);
+            Console.WriteLine(upperTitle);
+
+
+
+
+
+
+
+
             #endregion
 
         }
