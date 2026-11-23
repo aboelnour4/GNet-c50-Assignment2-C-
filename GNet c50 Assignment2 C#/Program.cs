@@ -49,19 +49,26 @@ namespace GNet_c50_Assignment2_C_
 
             #region Question 1 app
 
-            string title = "clean code";
+            // string title = "clean code";
 
-            string upperTitle = title.ToUpper();
+            // string upperTitle = title.ToUpper();
 
-            Console.WriteLine(title);
-            Console.WriteLine(upperTitle);
-
-
+            //  Console.WriteLine(title);
+            // Console.WriteLine(upperTitle);
 
 
 
 
 
+
+
+
+            #endregion
+            #region Question 2
+            string s1 = "Clean Code";
+            string s2 = "Clean Code";
+
+            Console.WriteLine(string.ReferenceEquals(s1, s2));
 
             #endregion
 
